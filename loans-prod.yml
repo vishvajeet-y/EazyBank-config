@@ -1,7 +1,7 @@
 build:
   version: "2.0"
 loans:
-  message: "Welcome to EazyBank Loan related prod API"
+  message: "Welcome to EazyBank Loan related production API"
   contactDetails:
     name: "vishvajeet"
     email: "vish@gmail.com"
