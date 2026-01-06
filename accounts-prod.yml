@@ -1,6 +1,6 @@
 build: "3.0"
 accounts:
-  message: "Welcome to EazyBanks account related production APIs"
+  message: "Welcome to EazyBanks account related prod APIs"
   contactDetails:
     name: "Rahul-prod HeadMaster"
     #cipher tell spring cloud to use key to decrypt this encrypted value
