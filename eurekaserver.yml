@@ -8,7 +8,10 @@ eureka:
     hostname: localhost
 
   client:
-    fetchRegistry: false
+  #By default it is true and we don't want our Eurekaserver to fetch registry details of other MS.My Eurekaserver never going to call MS that's
+  #why it is unnecessary to fetch all registry details of MS
+    fetchRegistry: false 
+    #As we don't want Eurekaserver to register with itself,we mention this property as false
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://${eurka.instance.hostname}:${server.port}/eureka/
