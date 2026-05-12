@@ -14,4 +14,4 @@ eureka:
     #As we don't want Eurekaserver to register with itself,we mention this property as false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://${eurka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
